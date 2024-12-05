@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face {
+	font-family: 'Candara';
+	src: url('pf-2024-img/Candara.ttf')
+}
 html{
 	font: 100%;
 }
@@ -646,6 +650,9 @@ img {
 	filter: grayscale(60%);
   }
  @media (max-width: 600px){
+	body p {
+		letter-spacing: 0.12rem;
+	}
 	.top-title {
 		font-size: 32px;
 	}
@@ -671,6 +678,12 @@ img {
 	.btn-wrap {
 		display: none;
 	}
+	.mkup-box img {
+		width: 400px;
+		margin-left: 5px;
+		margin-right: 5px;
+
+	}
 
 	.top-img p {
 		font-size: 20px;
@@ -688,18 +701,25 @@ img {
 	.top-img h2 {
 		font-size: 32px;
 	}
+	.mkup-box p {
+		margin: 10px 60px;
+		align-self: center;
+	}
 	.left-t {
-		margin-left: 10px;
+		margin: 10px 60px;
 	}
 	.prfimg img {
 		width: 100px;
 		height: 100px;
 	} 
-
+    .btn-m {
+		justify-content: center;
+	}
 	.sks-title p {
 		font-size: 32px;
 		padding-bottom: 5px;
 		background-size: 100% 15%;
+		text-align: center;
 	}
 
 	.sub-title p a {
@@ -712,6 +732,19 @@ img {
 	 }
 	 .concept span {
 		font-size: 20px;
+	 }
+	 
+
+	 .top-about li {
+		padding-left: 5px;
+		padding-right: 5px;
+	 }
+
+	 .name {
+		justify-content: center;
+	 }
+	 .text-box2 {
+		padding-left: 5px;
 	 }
 	
 	 .sml-text {
@@ -867,6 +900,9 @@ img {
 	}
 	 footer {
 		height: 100px;
+	 }
+	 footer a {
+		font-size: 14px;
 	 }
 	 footer p {
 		margin-left: 10px;
