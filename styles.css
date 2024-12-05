@@ -26,13 +26,13 @@ header {
 }
 
 .top-title {
-	font-family: Candara;
+	font-family: 'Candara';
 	font-size: 48px;
 	margin-top: 15px;
 }
 .sml-text {
 	font-size: 13px;
-	font-family: Candera;
+	font-family: 'Candara';
 }
 body {
 	font-family: "Sawarabi Gothic";
@@ -128,7 +128,7 @@ img {
 	
 }
 .mobile-menu li {
-	font-family: Candera;
+	font-family: 'Candara';
 	font-size: 20px;
 	
 }
@@ -199,7 +199,7 @@ img {
 	font-size: 24px;
 }
 .bgtext {
-	font-family: Candara;
+	font-family: 'Candara';
 	font-size: 80px;
 	position: absolute;
 	top: 75%;
@@ -225,7 +225,7 @@ img {
 }
  
 .sks-title p{
-	font-family: Candara;
+	font-family: 'Candara';
 	font-size: 48px;
 	font-weight: normal;
 	margin: 50px 10px;
@@ -287,7 +287,7 @@ img {
 }
 
 .concept p {
-	font-family: Candara;
+	font-family: 'Candara';
 	font-size: 48px;
 	font-weight: normal;
 	margin: 40px 10px;
@@ -327,7 +327,7 @@ img {
  }
  .sub-title {
 	font-size: 32px;
-	font-family: Candara;
+	font-family: 'Candara';
  }
  
  .top-about ul {
@@ -407,7 +407,7 @@ img {
  }
  .title-img p {
 	font-size: 64px;
-	font-family: Candera;
+	font-family: 'Candara';
 	font-weight: normal;
 	margin-left: 10px;
 	padding: 10px;
