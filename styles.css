@@ -101,6 +101,7 @@ img {
 	flex-direction: column;
 	gap: 5px;
 	margin-top: 15px;
+	margin-right: 10px;
 	color: #383838;
 }
 .hamburger span {
@@ -213,7 +214,7 @@ img {
 	background: #f2f2f2;
 	padding: 40px 10px 40px 35px;
 	margin:35px 0px 35px 60px;
-	box-shadow: 2px 5px 10px 1px hsl(0 0 22/ 80%);
+	box-shadow: 2px 0px 10px 1px hsl(0 0 22/ 80%);
 
 }
  .top-wks {
@@ -709,8 +710,8 @@ img {
 		margin: 10px 60px;
 	}
 	.prfimg img {
-		width: 100px;
-		height: 100px;
+		width: 80px;
+		height: 80px;
 	} 
     .btn-m {
 		justify-content: center;
@@ -739,9 +740,15 @@ img {
 		padding-left: 5px;
 		padding-right: 5px;
 	 }
+	 .ta-h {
+		font-size: 24px;
+	 }
 
 	 .name {
 		justify-content: center;
+	 }
+	 .name p {
+		font-size: 24px;
 	 }
 	 .text-box2 {
 		padding-left: 5px;
@@ -758,21 +765,32 @@ img {
 	 .t-title p {
 		font-size: 36px;
 	 }
+	 .wtitle-link {
+		flex-direction: column;
+	 }
 	 .wtitle li {
 		font-size: 32px;
 		margin-bottom: 0;
 	 }
 	 .li-s li {
-		font-size: 20px;
+		font-size: 18px;
 	 }
 	 .border {
 		background-size: 100% 10%;
 	 }
+	 .link {
+		justify-content: flex-end;
+		margin-right: 10px;
+	 }
 	 .link a {
-		font-size: 14.5px;
+		font-size: 14px;
 	 }
 	 .link span {
-		margin-top: 80px;
+		margin-top: 25px;
+		
+	 }
+	 .w-b a {
+		margin-top: 0px;
 	 }
 	 .text-box-wb1 {
 		margin: 10px 40px;
@@ -794,9 +812,7 @@ img {
 		align-self: center;
 		
 	 }
-	
 	 
-
 	 .wc3 {
 		order: 1;
 	 }
@@ -810,7 +826,7 @@ img {
 	
 		text-align: center;
 		margin: 0 auto 20px;
-		padding: 10px 40px 10px;
+		padding: 10px 0;
 		width: 100%;
 		
 	 }
@@ -849,8 +865,8 @@ img {
 		height: 30px;
 	 }
 	 .sns img {
-		width: 20px;
-		height: 20px;
+		width: 25px;
+		height: 25px;
 	 }
 	 .sns a {
 		margin-right: 20px;
@@ -894,19 +910,22 @@ img {
 	.wimg-text {
 		text-align: center;
 	}
-	.wimg-text p {
-		justify-self: baseline;
-		margin-left: 60px;
-	}
+	
 	 footer {
 		height: 100px;
+		padding: auto;
 	 }
 	 footer a {
 		font-size: 14px;
+		align-self: center;
 	 }
 	 footer p {
 		margin-left: 10px;
+		align-self: center;
+		line-height: 16px;
+
 	 }
+	 
 	}	 
 
 
