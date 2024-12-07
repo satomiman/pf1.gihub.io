@@ -103,6 +103,7 @@ img {
 	margin-top: 15px;
 	margin-right: 10px;
 	color: #383838;
+	position: relative;
 }
 .hamburger span {
 	display: block;
@@ -110,6 +111,7 @@ img {
 	height: 2.3px;
 	background: #383838;
 	border-radius: 2px;
+	transition: all 0.3s ease;
 	
 }
 
@@ -669,6 +671,20 @@ img {
 		text-align: center;
 		
 	}
+	.hamburger.active span:nth-child(1) {
+		transform: rotate(45deg);
+		position: absolute;
+		top: 50%;
+	}
+	.hamburger.active span:nth-child(2) {
+		opacity: 0;
+	}
+
+	.hamburger.active span:nth-child(3) {
+		transform: rotate(-45deg);
+		position: absolute;
+		top: 50%;
+	}
 
 	.mobile-menu.active {
 		display: block;
@@ -697,11 +713,16 @@ img {
 		margin-left: 0;
 		margin-top: 15px;
 		padding: 0;
+		left: 10px;
 	}
 
 	.top-img h2 {
 		font-size: 32px;
 	}
+	.bgtext {
+		left: 10px;
+	}
+
 	.mkup-box p {
 		margin: 10px 60px;
 		align-self: center;
@@ -746,16 +767,19 @@ img {
 
 	 .name {
 		justify-content: center;
-	 }
-	 .name img {
-		 margin-left: 10px;
-		 margin-top: 28px;
+		
 	 }
 	 .name p {
 		font-size: 32px;
-		margin-top: 20px;
-	        margin-right: 0;
-	        margin-bottom: 20px;
+		margin: 20px 0 ;
+	 }
+	 .name img {
+        margin-top: 28px;
+		margin-left: 10px;
+		margin-right: 10px;
+	 }
+	 .text-box {
+		margin-left: 10px;
 	 }
 	 .text-box2 {
 		padding-left: 5px;
