@@ -649,7 +649,7 @@ img {
 	width: 464px;
 	height: 292px;
 	border-radius: 15px;
-	object-fit: cover;
+	
   }
 
   .grid img:hover {
