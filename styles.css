@@ -646,15 +646,13 @@ img {
 	margin-bottom: 50px;
    }
    .grid img {
-	width: 464px;
-	height: 292px;
+	width: 324px;
+	height: 183px;
 	border-radius: 15px;
-	
+	object-fit: cover;
   }
 
-  .grid img:hover {
-	filter: grayscale(60%);
-  }
+ 
  @media (max-width: 600px){
 	body p {
 		letter-spacing: 0.12rem;
