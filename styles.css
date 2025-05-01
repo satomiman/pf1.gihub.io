@@ -646,8 +646,7 @@ img {
 	margin-bottom: 50px;
    }
    .grid img {
-	width: 432px;
-	height: 243px;
+	
 	border-radius: 15px;
 	object-fit: cover;
   }
